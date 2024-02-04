@@ -42,7 +42,17 @@ const nbaTeams = [
 
 ];
 
+
+
 for (const element of nbaTeams) {
-    console.log(element.team,"\n")
-    
+    const team = element.team
+    console.log(team)
+
+    const titles = element.titles.championshipsWon
+    for (const element2 of titles) {
+    console.log(element2)   
+    }
+ 
 }
+
+

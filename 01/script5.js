@@ -42,7 +42,17 @@ const nbaTeams = [
 
 ];
 
+let istrue = false
+
 for (const element of nbaTeams) {
-    console.log(element.team,"\n")
+    if (element.team === "Heat") {
+        istrue = true
+        console.log(element)
+        
+    } 
     
+}
+
+if (istrue === false) {
+    console.log("this team does not exist")
 }

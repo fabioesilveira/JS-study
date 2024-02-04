@@ -42,7 +42,13 @@ const nbaTeams = [
 
 ];
 
+
+
 for (const element of nbaTeams) {
-    console.log(element.team,"\n")
+   const players = element.currentlyPlayers
+   for (const element2 of players) {
+    console.table(element2)
+   }
+  
     
 }

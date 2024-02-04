@@ -42,7 +42,13 @@ const nbaTeams = [
 
 ];
 
+const team = "Heat"
+
 for (const element of nbaTeams) {
-    console.log(element.team,"\n")
+    if (element.team === team) {
+        console.log(element)
+        
+    } 
     
 }
+
