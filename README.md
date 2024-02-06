@@ -1,9 +1,9 @@
 # JS-study
 
-## 1. Type of data
+## 1. Types of data
 
-## 2. Structure of conditions
+## 2. Structures of conditions
 
-## 3. Structure of repetitions
+## 3. Structures of repetitions
 
 ## 4. Functions
