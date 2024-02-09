@@ -77,14 +77,21 @@ const nbaPlayers = [
 
 ]
 
+ // Utilizar for 2x somente em caso de arrays 
 
 for (const element of nbaPlayers) {
     const player = element.player
     console.log(player)
+
+    const team = element.team
+    console.log(team)
     
     const awards = element.awards.nbaAllStarYears
     for (const element2 of awards) {
     console.log(element2)   
-    }
+    };
+
+
+
     
 }
